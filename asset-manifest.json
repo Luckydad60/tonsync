@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tonsync/static/css/main.b9f6f154.css",
+    "main.js": "/tonsync/static/js/main.fb710c74.js",
+    "index.html": "/tonsync/index.html",
+    "main.b9f6f154.css.map": "/tonsync/static/css/main.b9f6f154.css.map",
+    "main.fb710c74.js.map": "/tonsync/static/js/main.fb710c74.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9f6f154.css",
+    "static/js/main.fb710c74.js"
+  ]
+}
