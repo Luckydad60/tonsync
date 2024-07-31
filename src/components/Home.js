@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import { Link, useNavigate } from "react-router-dom";
 import { AiOutlineDollarCircle } from "react-icons/ai";
 import { BiLogInCircle } from "react-icons/bi";
@@ -6,18 +6,14 @@ import { TbArrowsTransferDown, TbTransactionDollar } from "react-icons/tb"
 import { GiToken } from "react-icons/gi"
 import { BsWallet, BsCurrencyExchange, BsBatteryCharging, BsServer, BsBugFill } from "react-icons/bs";
 
-
-
-// import { BiLogoFacebookCircle } from "react-icons/bi";
-// import { BsTwitterX } from "react-icons/bs";
-
 function Home() {
-
 
   const navigate = useNavigate();
   const handleNavigation = () => {
     navigate('/import')
   }
+
+  
   return (
     <>
       <div className="navbar">

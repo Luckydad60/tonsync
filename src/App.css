@@ -226,7 +226,7 @@ header p {
 footer {
  
   padding-inline: 20px;
-  border-top: 1px solid var(--accentBlue);
+  border-top: 1px solid #008bf8;
   text-align: center;
   padding-bottom: 10px;
 }
@@ -307,7 +307,7 @@ button {
   padding-block: 10px;
   border-radius: 20px;
   background-color: rgba(228, 225, 225, 0);
-  caret-color: #0b1890;
+  caret-color: #008bf8;
   font-weight: 700;
   outline: none;
   border: 1px solid grey;
@@ -323,7 +323,7 @@ button {
 
 input:focus,
 input:hover {
-  border: 2px solid #022e6f;
+  border: 2px solid #008bf8;
   background-color: rgba(9, 10, 30, 0.249);
   outline: none;
 }
@@ -411,6 +411,10 @@ input[type="submit"] {
   }
   .submit_seed {
     min-width: 300px;
+  }
+  .row1  {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
